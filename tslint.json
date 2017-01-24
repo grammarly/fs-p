@@ -1,0 +1,10 @@
+{
+  "extends": "@grammarly-npm/grammarly-tslint-config",
+  "rules": {
+    "no-console": [
+      true,
+      "log", "warn", "debug", "time"
+    ],
+    "require-jsdoc": [false]
+  }
+}

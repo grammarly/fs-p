@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/@grammarly-npm/grammarly-tslint-config/tsconfig-base",
+  "compilerOptions": {
+    "lib": ["es6"],
+    "outDir": "./",
+    "sourceMap": false,
+    "baseUrl": "./"
+  },
+  "files": ["index.ts"]
+}
