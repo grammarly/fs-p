@@ -4,7 +4,8 @@
     "lib": ["es6"],
     "outDir": "./",
     "sourceMap": false,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "declaration": true
   },
   "files": ["index.ts"]
 }

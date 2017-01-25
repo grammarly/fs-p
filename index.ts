@@ -21,6 +21,10 @@ import {
   ensureSymlink as ensureSymlink_,
   emptyDir as emptyDir_,
 
+  // Explicit type import
+  // https://github.com/Microsoft/TypeScript/issues/9944#issuecomment-244448079
+  // tslint:disable-next-line
+  CopyFilterFunction,
   CopyFilter,
   CopyOptions,
   MoveOptions,

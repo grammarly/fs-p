@@ -1,6 +1,6 @@
 {
   "name": "fs-p",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fs-extra on Promises. Typescript-friendly",
   "main": "index.js",
   "scripts": {
