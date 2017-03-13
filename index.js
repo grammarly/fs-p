@@ -8,6 +8,7 @@
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs_extra_1 = require("fs-extra");
 var fs_extra_2 = require("fs-extra");
 exports.copySync = fs_extra_2.copySync;

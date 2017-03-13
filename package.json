@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/grammarly/fs-p#readme",
   "dependencies": {
-    "fs-extra": "^1.0.0"
+    "fs-extra": "^2.0.0"
   },
   "devDependencies": {
-    "@grammarly-npm/grammarly-tslint-config": "^0.1.9",
-    "@types/fs-extra": "0.0.37",
+    "@grammarly-npm/grammarly-tslint-config": "^0.3.0",
+    "@types/fs-extra": "2.0.0",
     "tslint": "^4.3.1",
     "typescript": "^2.1.5"
   }
