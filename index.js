@@ -21,7 +21,6 @@ exports.outputJSONSync = fs_extra_2.outputJSONSync;
 exports.readJsonSync = fs_extra_2.readJsonSync;
 exports.readJSONSync = fs_extra_2.readJSONSync;
 exports.removeSync = fs_extra_2.removeSync;
-exports.walkSync = fs_extra_2.walkSync;
 exports.writeJsonSync = fs_extra_2.writeJsonSync;
 exports.writeJSONSync = fs_extra_2.writeJSONSync;
 exports.ensureDirSync = fs_extra_2.ensureDirSync;
@@ -29,7 +28,6 @@ exports.ensureFileSync = fs_extra_2.ensureFileSync;
 exports.ensureLinkSync = fs_extra_2.ensureLinkSync;
 exports.ensureSymlinkSync = fs_extra_2.ensureSymlinkSync;
 exports.emptyDirSync = fs_extra_2.emptyDirSync;
-exports.walk = fs_extra_2.walk;
 __export(require("fs"));
 var promisify1 = function (fn) { return function (arg) { return new Promise(function (resolve, reject) {
     fn(arg, function (err, result) {

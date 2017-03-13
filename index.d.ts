@@ -5,7 +5,7 @@
  * https://github.com/jprichardson/node-fs-extra#methods
  */
 import { CopyFilterFunction, CopyOptions, MoveOptions, MkdirOptions, OpenOptions } from 'fs-extra';
-export { copySync, createFileSync, mkdirsSync, mkdirpSync, outputFileSync, outputJsonSync, outputJSONSync, readJsonSync, readJSONSync, removeSync, walkSync, writeJsonSync, writeJSONSync, ensureDirSync, ensureFileSync, ensureLinkSync, ensureSymlinkSync, emptyDirSync, walk, CopyFilter, CopyOptions } from 'fs-extra';
+export { copySync, createFileSync, mkdirsSync, mkdirpSync, outputFileSync, outputJsonSync, outputJSONSync, readJsonSync, readJSONSync, removeSync, writeJsonSync, writeJSONSync, ensureDirSync, ensureFileSync, ensureLinkSync, ensureSymlinkSync, emptyDirSync, CopyFilter, CopyOptions } from 'fs-extra';
 export * from 'fs';
 export declare const copy: (src: string, dest: string, filterOrOptions?: RegExp | CopyFilterFunction | CopyOptions | undefined) => Promise<void>;
 export declare const move: (src: string, dest: string, options?: MoveOptions | undefined) => Promise<void>;
