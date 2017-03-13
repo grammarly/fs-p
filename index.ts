@@ -43,7 +43,6 @@ export {
   readJsonSync,
   readJSONSync,
   removeSync,
-  walkSync,
   writeJsonSync,
   writeJSONSync,
   ensureDirSync,
@@ -51,7 +50,6 @@ export {
   ensureLinkSync,
   ensureSymlinkSync,
   emptyDirSync,
-  walk,
 
   CopyFilter,
   CopyOptions
