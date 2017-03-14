@@ -13,7 +13,7 @@ Previously, there was no TypeScript-friendly promise-based `fs-extra` implementa
 ## Usage
 
 `fs-p` api is no different from `fs-extra`, except, async methods are wrapped in Promises.
-Check out the original `fs-extra` [documentation](https://github.com/jprichardson/node-fs-extra/blob/1.x/README.md#methods).
+Check out the original `fs-extra` [documentation](https://github.com/jprichardson/node-fs-extra/#methods).
 
 ## Promise-based async
 
