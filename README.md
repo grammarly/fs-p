@@ -1,3 +1,7 @@
+DEPRECATED
+=================
+[fs-extra](https://github.com/jprichardson/node-fs-extra) has a promise-based API as of v4.0.0. [TypeScript-friendly](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/fs-extra).
+
 # fs-p
 
 `fs-p` is a TypeScript-friendly promise-based wrapper on top of [fs-extra](https://github.com/jprichardson/node-fs-extra) package.
